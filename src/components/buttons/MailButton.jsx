@@ -5,7 +5,7 @@ import "./SocialButton.css";
 export default function MailButton({ href }) {
   return (
     <a
-      href="mailto:wibbels.leoo@gmail.com"
+      href={href}
       target="_blank"
       rel="noopener noreferrer"
       className="social-button"

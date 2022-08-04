@@ -3,7 +3,7 @@ import { FileText } from "react-feather";
 import resume from "./resume.pdf";
 import "./SocialButton.css";
 
-export default function ResumeButton({ href }) {
+export default function ResumeButton() {
   return (
     <a
       href={resume}
