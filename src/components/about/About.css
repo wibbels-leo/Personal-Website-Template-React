@@ -1,0 +1,18 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: 4rem auto 8rem auto;
+  /* overflow: auto; */
+}
+.about-paragraph {
+  margin: 0.5rem 0;
+  max-width: 800px;
+}
+
+.contact-image {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+  object-fit: cover;
+}

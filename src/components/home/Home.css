@@ -1,0 +1,17 @@
+.title {
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  line-height: 4rem;
+}
+.sub-title {
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  line-height: 2rem;
+}
+@media screen and (max-width: 768px) {
+  .social-links {
+    flex-direction: column;
+  }
+}
